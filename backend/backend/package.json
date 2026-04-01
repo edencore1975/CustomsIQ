@@ -1,0 +1,16 @@
+{
+  "name": "customsiq-backend",
+  "version": "1.0.0",
+  "description": "HTS classifier backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "openai": "^4.0.0",
+    "csv-parser": "^3.0.0"
+  }
+}
